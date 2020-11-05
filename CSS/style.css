@@ -1,0 +1,41 @@
+header {
+	padding: 38px 0;
+	background-color: #FCFCFC;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+nav {
+	display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.header-box {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.logo-box{
+	display:list-item;
+	list-style-position: outside;
+	margin-left: 20px;
+}
+.logo-box::marker {
+  color: #6294A2;
+  font-size: 1rem;
+}
+.logo-box a {
+	font-size: 22px;
+	margin-right: 73px;
+}
+.menu li:last-child{
+	margin-left: 55px;
+}
+li {
+	display: inline-block;
+	font-size: 16px;
+}
+/*.clear {
+	clear: both;
+}*/
