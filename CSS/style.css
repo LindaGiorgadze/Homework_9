@@ -363,13 +363,18 @@ footer {
 }
 footer nav {
 	display: flex;
+	flex-wrap: wrap;
+}
+.logo-blog {
+	max-width: 352px;
+	margin: 0 367px 5px 0;
 }
 .footer-menu {
 	display: flex;
 	color: #404040;
+	margin: 0 148px 0 0;
 }
 .footer-menu-columns {
-	padding: 0 65px 17px 55px;
 	line-height: 2;
 }
 .footer-menu-columns ul {
@@ -378,6 +383,10 @@ footer nav {
 }
 .footer-menu-columns:first-child {
 	border-right: 1px solid #F0F0F0;
+	padding: 0 65px 17px 0;
+}
+.footer-menu-columns:nth-child(2) {
+	padding: 0 0 17px 55px;
 }
 .footer-menu-columns a {
 	color: #404040;
@@ -390,7 +399,7 @@ footer .logo-box li:nth-child(2) {
 	opacity: 0.27450980392156865;
 }
 .Blog {
-	margin: 45px 367px 0 0 ;
+	margin: 45px 0 0 ;
 }
 .Blog h3 {
 	font-size: 16px;
@@ -401,4 +410,26 @@ footer .logo-box li:nth-child(2) {
 	font-size: 15px;
 	color: #404040;
 	opacity: 0.5764705882352941;
+}
+.Follow h4{
+	font-size: 15px;
+	color: #404040;
+	padding: 0 0 13px 0;
+}
+.social-icons a img {
+	opacity: 15%;
+	width: 27px;
+}
+.portfolio li {
+	display: block;
+}
+.portfolio {
+	margin: 32px 0 0;
+	line-height: 2;
+}
+.portfolio a {
+	color: #404040;
+}
+h1, h2, h3, p, a, li, input, button {
+	font-family: acumin-pro,sans-serif;
 }
