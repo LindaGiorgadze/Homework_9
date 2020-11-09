@@ -1,3 +1,6 @@
+body {
+	background-color: #FAFAFA;
+}
 header {
 	padding: 38px 0;
 	background-color: #FCFCFC;
@@ -7,7 +10,7 @@ header {
 	top: 0;
 	z-index: 99;
 }
-nav {
+header nav {
 	display: flex;
     width: 100%;
     justify-content: space-between;
@@ -284,6 +287,7 @@ li {
 .popular-articles {
 	padding: 40px 57px 40px 40px;
 	max-width: 405px;
+	background-color: #FCFCFC;
 }
 .popular-articles h1 {
 	display: list-item;
@@ -314,4 +318,65 @@ li {
 }
 .popular-articles div {
 	margin: 32px 0 0;
+}
+.trending-articles {
+	margin: 60px 0 0;
+	background-color: #FCFCFC;
+	padding: 36px 61px 37px 43px;
+}
+.trending-articles h1 {
+	display: list-item;
+    list-style-position: outside;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #404040;
+    margin-bottom: 38px;
+}
+.trending-articles-div {
+	display: flex;
+	justify-content: space-between;
+}
+.trending-articles-div h2 {
+	color: #404040;
+    font-size: 20px;
+    padding: 22px 0 20px 0;
+}
+.trending-articles-div p{
+    display: inline-block;
+    color: #404040;
+    font-size: 15px;
+    line-height: 21px;
+}
+.trending-articles-div img {
+	width: 100%;
+	max-height: 287px;
+	object-fit: contain;
+	border-radius: 3% 3%;
+}
+.trending-box {
+	max-width: 378px;
+}
+footer {
+	background-color: #FCFCFC;
+	padding: 50px 0;
+}
+footer nav {
+	display: flex;
+}
+.footer-menu {
+	display: flex;
+	color: #404040;
+	font-size: 15px;
+	text-align: left;
+}
+.footer-menu-columns {
+	padding: 0 65px 17px 55px;
+	line-height: 2;
+}
+.footer-menu-columns ul {
+	display: flex;
+	flex-flow: column;
+}
+.footer-menu-columns:first-child {
+	border-right: 1px #F0F0F0;
 }
