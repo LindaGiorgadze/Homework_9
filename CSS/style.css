@@ -335,6 +335,7 @@ li {
 .trending-articles-div {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .trending-articles-div h2 {
 	color: #404040;
@@ -348,7 +349,7 @@ li {
     line-height: 21px;
 }
 .trending-articles-div img {
-	width: 100%;
+	max-width: 378px;
 	max-height: 287px;
 	object-fit: contain;
 	border-radius: 3% 3%;
@@ -366,8 +367,6 @@ footer nav {
 .footer-menu {
 	display: flex;
 	color: #404040;
-	font-size: 15px;
-	text-align: left;
 }
 .footer-menu-columns {
 	padding: 0 65px 17px 55px;
@@ -378,5 +377,28 @@ footer nav {
 	flex-flow: column;
 }
 .footer-menu-columns:first-child {
-	border-right: 1px #F0F0F0;
+	border-right: 1px solid #F0F0F0;
+}
+.footer-menu-columns a {
+	color: #404040;
+	font-size: 15px;
+	text-align: left;
+}
+footer .logo-box li:nth-child(2) {
+	color: #404040;
+	font-size: 18px;
+	opacity: 0.27450980392156865;
+}
+.Blog {
+	margin: 45px 367px 0 0 ;
+}
+.Blog h3 {
+	font-size: 16px;
+	margin: 0 0 10px 0;
+	color: #404040;
+}
+.Blog p {
+	font-size: 15px;
+	color: #404040;
+	opacity: 0.5764705882352941;
 }
